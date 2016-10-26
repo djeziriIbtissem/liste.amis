@@ -22,6 +22,10 @@ public class main {
         algerien.ajouter(maroccain);
         algerien.ajouter(tunisien);
         algerien.ajouter(anglais);
+        
+        System.out.print(algerien.toString());
+        System.out.print("\n");
+
 
         //toute la liste
         algerien.afficher();
